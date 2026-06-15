@@ -11,9 +11,14 @@ from langchain_ollama.llms import OllamaLLM
 # LOAD DOCUMENT
 # =========================================================
 
+# loader = TextLoader(
+#     "./data/Customer_Policy_Guide.txt"
+# )
+
 loader = TextLoader(
-    "./data/Customer_Policy_Guide.txt"
+    "./Customer_Policy_Guide.txt"
 )
+
 
 docs = loader.load()
 
